@@ -5,7 +5,7 @@ import { useGlobalContext } from './context';
 
 function App() {
 
-  const { main, element } = useGlobalContext()
+  const { main } = useGlobalContext()
 
   return (
     <div className="App">
