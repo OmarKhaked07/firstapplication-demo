@@ -30,7 +30,7 @@ const GridSystem = ({colCount, children}) => {
     for (let col = 0; col < colCount; col++){
       if(index < children.length){
         cols.push(
-          <Col className="mt-4" md={4} >
+          <Col className="mt-4" md={6} xs={6} >
             {
               children[index]
             }

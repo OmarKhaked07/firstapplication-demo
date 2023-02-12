@@ -20,7 +20,7 @@ const MainPage = () => {
         {
           MainButtons.map((item) => {
             return (
-              <Col className="p-5 pt-0 mt-3" md={4} key={item.id}>
+              <Col className="mt-5" md={4} xs={6} key={item.id}>
                 <div className='modals' onClick={() => item.function(Contoller())}>
                   <img className='img' src={item.url} alt={item.name} />
                 </div>
